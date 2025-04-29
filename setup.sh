@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-SCRIPT_DIR=$( cd -- "$( dirname -- "$BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-
 # Create SSH Key
 ssh-keygen -t ed25519 -C "Liam@LiamAsman.com"
 ssh-add ~/.ssh/id_ed25519
@@ -40,10 +38,3 @@ sudo apt install neovim -y
 # zsh plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions \${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-
-ln -s "${SCRIPT_DIR}/.tmux.conf" ~/tmux.conf
-ln -s "${SCRIPT_DIR}/.zshrc" ~/.zshrc
-mkdir -p ~/.config
-ln -sf "${SCRIPT_DIR}/nvm/init.vim" ~/.config/nvim/init.vim
-ln -sf "${SCRIPT_DIR}/starship.toml" ~/.config/starship.toml
