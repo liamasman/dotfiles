@@ -16,3 +16,4 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 sudo apt install tmux -y
 ln -s "${SCRIPT_DIR}/.tmux.conf" ~/tmux.conf
+sudo apt install neovim -y
