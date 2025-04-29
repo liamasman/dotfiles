@@ -8,12 +8,15 @@ git config --global user.email "Liam@LiamAsman.com"
 sudo apt install zsh -y
 sudo apt install curl -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-ln -s "${SCRIPT_DIR}.zshrc" ~/.zshrc
-mv ~/.config "${SCRIPT_DIR}"/.config
-mkdir -p .config
 touch .config/starship.toml
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 sudo apt install tmux -y
-ln -s "${SCRIPT_DIR}/.tmux.conf" ~/tmux.conf
 sudo apt install neovim -y
+
+
+ln -s "${SCRIPT_DIR}/.tmux.conf" ~/tmux.conf
+ln -s "${SCRIPT_DIR}.zshrc" ~/.zshrc
+mkdir -p ~/.config
+ln -sf "${SCRIPT_DIR}/nvm/init.vim" ~/.config/nvim/init.vim
+ln -sf "${SCRIPT_DIR}/starship.toml" ~/.config/starship.toml
