@@ -2,6 +2,7 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "$BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+ln -sf "${SCRIPT_DIR}/.bashrc" ~/.bashrc
 ln -sf "${SCRIPT_DIR}/.tmux.conf" ~/.tmux.conf
 ln -sf "${SCRIPT_DIR}/.zshrc" ~/.zshrc
 mkdir -p ~/.config
