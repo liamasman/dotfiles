@@ -9,3 +9,6 @@ sudo apt install zsh -y
 sudo apt install curl -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ln -s "${SCRIPT_DIR}.zshrc" ~/.zshrc
+mv ~/.config "${SCRIPT_DIR}"/.config
+mkdir -p .config
+touch .config/starship.toml
