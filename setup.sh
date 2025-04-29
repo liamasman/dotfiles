@@ -2,10 +2,18 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "$BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+# Create SSH Key
+ssh-keygen -t ed25519 -C "Liam@LiamAsman.com"
+ssh-add ~/.ssh/id_ed25519
+echo "SSH Key"
+cat ~/.ssh/id_ed25519.pub
+
 # Git config
 git config --global init.defaultBranch main
 git config --global user.name "Liam Asman"
 git config --global user.email "Liam@LiamAsman.com"
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
 
 # Install zsh
 sudo apt install zsh -y
