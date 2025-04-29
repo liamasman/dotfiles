@@ -12,3 +12,5 @@ ln -s "${SCRIPT_DIR}.zshrc" ~/.zshrc
 mv ~/.config "${SCRIPT_DIR}"/.config
 mkdir -p .config
 touch .config/starship.toml
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --all
