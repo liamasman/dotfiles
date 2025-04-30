@@ -117,7 +117,3 @@ if ! shopt -oq posix; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-if [ -t 1 ]; then
-  exec zsh
-fi
