@@ -112,9 +112,3 @@ eval "$(starship init zsh)"
 . ~/apps/z/z.sh
 
 source ~/apps/antigen/antigen.zsh
-
-# Install oh-my-git
-# Remove these lines to remove oh-my-git
-antigen use oh-my-zsh
-antigen bundle arialdomartini/oh-my-git
-antigen theme arialdomartini/oh-my-git-themes oppa-lana-style

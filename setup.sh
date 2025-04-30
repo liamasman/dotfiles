@@ -52,18 +52,6 @@ sudo apt install -y fd-find
 # Install bat
 sudo apt install bat
 
-# Install fonts for oh-my-git
-# Copy the awesome fonts to ~/.fonts
-mkdir -p ~/apps/awesome-terminal-fonts
-git clone https://github.com/gabrielelana/awesome-terminal-fonts.git ~/apps/awesome-terminal-fonts
-cd ~/apps/awesome-terminal-fonts
-git checkout patching-strategy
-mkdir -p ~/.fonts
-cp ~/apps/awesome-terminal-fonts/patche/*.ttf ~/.fonts
-
-# Update the font-info cache
-sudo fccache -fv ~/.fonts
-
-# Install antigen (for oh-my-git)
+# Install antigen
 mkdir -p ~/apps/antigen
 curl -L git.io/antigen > ~/apps/antigen/antigen.zsh
