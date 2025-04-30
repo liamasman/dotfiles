@@ -113,3 +113,7 @@ eval "$(starship init zsh)"
 
 source ~/apps/antigen/antigen.zsh
 source ~/apps/commacd/commacd.sh
+
+# Configure fzf
+export FZF_DEFAULT_OPTS="--preview 'batcat --color=always {}'"
+export FZF_DEFAULT_COMMAND="fdfind --type f"
