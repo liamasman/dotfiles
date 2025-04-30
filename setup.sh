@@ -45,3 +45,6 @@ git clone https://github.com/rupa/z.git ~/apps/z
 
 # Install ripgrep
 sudo apt install -y ripgrep
+
+# Install fd
+sudo apt install -y fd-find
