@@ -102,9 +102,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 [ -f ~/.aliases ] && . ~/.aliases
+
 . ~/apps/z/z.sh
+
+source ~/apps/antigen/antigen.zsh

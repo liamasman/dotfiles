@@ -51,3 +51,7 @@ sudo apt install -y fd-find
 
 # Install bat
 sudo apt install bat
+
+# Install antigen
+mkdir -p ~/apps/antigen
+curl -L git.io/antigen > antigen.zsh
