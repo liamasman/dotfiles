@@ -48,3 +48,6 @@ sudo apt install -y ripgrep
 
 # Install fd
 sudo apt install -y fd-find
+
+# Install bat
+sudo apt install bat
