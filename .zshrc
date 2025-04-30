@@ -107,3 +107,4 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 [ -f ~/.aliases ] && . ~/.aliases
+. ~/apps/z/z.sh
