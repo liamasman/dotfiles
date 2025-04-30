@@ -105,3 +105,5 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+[ -f ~/.aliases ] && . ~/.aliases
