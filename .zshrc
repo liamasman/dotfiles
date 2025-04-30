@@ -112,3 +112,4 @@ eval "$(starship init zsh)"
 . ~/apps/z/z.sh
 
 source ~/apps/antigen/antigen.zsh
+source ~/apps/commacd/commacd.sh

@@ -55,3 +55,7 @@ sudo apt install bat
 # Install antigen
 mkdir -p ~/apps/antigen
 curl -L git.io/antigen > ~/apps/antigen/antigen.zsh
+
+# Install commacd
+mkdir -p ~/apps/commacd
+git clone https://github.com/shyiko/commacd.git ~/apps/commacd
