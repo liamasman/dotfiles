@@ -42,4 +42,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \${ZSH_CUSTOM:-~/.oh-
 # z - jump to directories just by typing their name
 mkdir -p ~/apps
 git clone https://github.com/rupa/z.git ~/apps/z
-echo ". ~/apps/z/z.sh" >> .zshrc
