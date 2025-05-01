@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions aliases alias-finder)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -117,5 +117,11 @@ source ~/apps/commacd/commacd.sh
 # Configure fzf
 export FZF_DEFAULT_OPTS="--preview 'batcat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fdfind --type f"
+
+# oh-my-zsh alias-finder configuration
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
 . ~/.tip_of_the_day.sh
