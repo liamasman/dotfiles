@@ -40,7 +40,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \${ZSH_CUSTOM
 git clone https://github.com/zsh-users/zsh-autosuggestions \${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Install z - jump to directories just by typing their name
-mkdir -p ~/apps
+mkdir -p ~/apps/z
 git clone https://github.com/rupa/z.git ~/apps/z
 
 # Install ripgrep
