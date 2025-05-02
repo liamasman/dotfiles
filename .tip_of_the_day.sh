@@ -32,6 +32,7 @@ tips=(
     "The 'date' command prints the current date and time."
     "Use 'time command' to measure how long a command takes to execute."
     "The 'which command' shows the full path of the command."
+    "Use ', <Part Of Directory Name>' to cd without typing the full name of the directory"
 )
 
 # Get a random tip
