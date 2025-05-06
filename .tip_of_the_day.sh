@@ -18,7 +18,6 @@ tips=(
     "The 'du -sh *' command shows the size of files and directories."
     "Use 'history | grep command' to find previous uses of a command."
     "The 'kill %1' command kills job number 1 that's running in the background."
-    "Use 'cal' to display a calendar in the terminal."
     "Use '&' at the end of a command to run it in the background."
     "The '>' operator redirects output to a file, overwriting it."
     "Use '>>' to append output to a file instead of overwriting."
