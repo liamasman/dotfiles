@@ -66,3 +66,6 @@ wget -o ~/Downloads/neovim-0.11.1 https://github.com/neovim/neovim/releases/down
 cd ~/Downloads/
 tar -xzf neovim-0.11.1
 mv nvim-linux-x86_64 ~/apps/neovim/0.11.1/
+
+# Install hstr
+sudo apt install hstr -y
