@@ -59,3 +59,10 @@ curl -L git.io/antigen > ~/apps/antigen/antigen.zsh
 # Install commacd
 mkdir -p ~/apps/commacd
 git clone https://github.com/shyiko/commacd.git ~/apps/commacd
+
+# Install neovim
+mkdir -p ~/apps/neovim/0.11.1
+wget -o ~/Downloads/neovim-0.11.1 https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-x86_64.tar.gz
+cd ~/Downloads/
+tar -xzf neovim-0.11.1
+mv nvim-linux-x86_64 ~/apps/neovim/0.11.1/
