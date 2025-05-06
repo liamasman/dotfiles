@@ -127,4 +127,4 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 . ~/.tip_of_the_day.sh
 
 # Add neovim to path
-export PATH="~/app/neovim/0.11.1/nvim-linux-x86_64/bin:$PATH"
+export PATH="$HOME/app/neovim/0.11.1/nvim-linux-x86_64/bin:$PATH"
