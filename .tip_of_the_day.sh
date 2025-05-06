@@ -39,6 +39,7 @@ tips=(
     "Use 'z' to jump to a directory by typing part of its name"
     "Use 'fd' to find a a file"
     "'nuke' is aliased to 'rm -rf'"
+    "Use 'meld' to compare files"
 )
 
 # Get a random tip
