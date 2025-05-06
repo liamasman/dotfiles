@@ -32,6 +32,13 @@ tips=(
     "Use 'time command' to measure how long a command takes to execute."
     "The 'which command' shows the full path of the command."
     "Use ', <Part Of Directory Name>' to cd without typing the full name of the directory"
+    "Use 'fzf' to find things"
+    "Fuzzy completion can be used by typing '**<TAB>', e.g. vi **<TAB>"
+    "Fuzzy completion works with ssh: 'ssh **<TAB>'"
+    "Use tmux to start sessions that won't be lost if you disconnect your ssh"
+    "Use 'z' to jump to a directory by typing part of its name"
+    "Use 'fd' to find a a file"
+    "'nuke' is aliased to 'rm -rf'"
 )
 
 # Get a random tip
