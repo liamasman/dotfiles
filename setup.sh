@@ -54,7 +54,7 @@ sudo apt install bat
 
 # Install antigen
 mkdir -p ~/apps/antigen
-curl -L git.io/antigen > ~/apps/antigen/antigen.zsh
+curl -L git.io/antigen >~/apps/antigen/antigen.zsh
 
 # Install commacd
 mkdir -p ~/apps/commacd
@@ -69,3 +69,6 @@ mv nvim-linux-x86_64 ~/apps/neovim/0.11.1/
 
 # Install hstr
 sudo apt install hstr -y
+
+# Install xclip for copy/paste form tmux to system buffer
+sudo apt install xclip
