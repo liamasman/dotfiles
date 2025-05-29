@@ -145,3 +145,5 @@ zle -N hstr_no_tiocsti
 bindkey '\C-r' hstr_no_tiocsti
 export HSTR_TIOCSTI=n
 
+# Add Hugo
+export PATH="$HOME/apps/hugo/0.147.2:$PATH"
