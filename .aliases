@@ -25,3 +25,9 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 # app overrides
 alias cat='batcat'
 alias fd='fdfind'
+
+alias tmux-cheatsheet="~/.tmux-cheatsheet.sh"
+
+if [ -e "${HOME}/.local_aliases" ]; then
+  source "${HOME}/.local_aliases"
+fi

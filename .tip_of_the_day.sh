@@ -40,6 +40,7 @@ tips=(
     "Use 'fd' to find a a file"
     "'nuke' is aliased to 'rm -rf'"
     "Use 'meld' to compare files"
+    "User Ctrl+Z to send a process to the background, and 'bg' to resume it"
 )
 
 # Get a random tip
